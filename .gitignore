@@ -1,0 +1,11 @@
+# Directories
+/dist/
+_gen/
+node_modules/
+
+# Files
+/TODO
+.DS_Store
+
+# Patterns
+.*.sw[op]

@@ -1,0 +1,62 @@
+baseURL = "http://gotemplates.org/"
+theme = ["docsy"]
+title = "Go Templates"
+
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+enableGitInfo = true
+enableMissingTranslationPlaceholders = true
+enableRobotsTXT = true
+
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsUseClassic = false
+pygmentsStyle = "tango"
+
+
+[languages]
+[languages.en]
+title = "Go Templates"
+description = "Fall in love with Go templates."
+languageName ="English"
+weight = 1
+
+
+[params]
+copyright = "Stuart Jansen and Contributors"
+#privacy_policy = "https://policies.google.com/privacy"
+
+github_repo = "https://github.com/sjansen/gotemplates.org"
+github_subdir = "site"
+
+#gcs_engine_id = "TODO"
+
+[[params.links.developer]]
+name = "GitHub"
+url = "https://github.com/sjansen/gotemplates.org"
+icon = "fab fa-github"
+desc = "Pull requests welcome!"
+
+[params.mermaid]
+enable = true
+theme = "default"
+
+[params.print]
+disable_toc = false
+
+[params.ui]
+navbar_logo = true
+
+[params.ui.feedback]
+enable = true
+yes = 'Glad to hear it! Please <a href="https://github.com/sjansen/gotemplates.org/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/sjansen/docsy/gotemplates.org/new">tell us how we can improve</a>.'
+
+[params.ui.readingtime]
+enable = true
+
+[services]
+[services.googleAnalytics]
+#id = "UA-00000000-0"
