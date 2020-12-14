@@ -67,6 +67,11 @@ resource "aws_cloudfront_distribution" "cdn" {
         forward = "none"
       }
     }
+
+    lambda_function_association {
+      event_type = "origin-request"
+      lambda_arn = aws_lambda_function.edge.qualified_arn
+    }
   }
 
   logging_config {
@@ -89,9 +94,8 @@ resource "aws_cloudfront_distribution" "cdn" {
   }
 
   viewer_certificate {
-    acm_certificate_arn            = aws_acm_certificate_validation.cert.certificate_arn
-    cloudfront_default_certificate = true
-    ssl_support_method             = "sni-only"
+    acm_certificate_arn = aws_acm_certificate_validation.cert.certificate_arn
+    ssl_support_method  = "sni-only"
   }
 }
 

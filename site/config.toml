@@ -1,6 +1,6 @@
 baseURL = "http://gotemplates.org/"
 theme = ["docsy"]
-title = "Go Templates"
+title = "GoTemplates.org"
 
 contentDir = "content/en"
 defaultContentLanguage = "en"
@@ -15,14 +15,20 @@ pygmentsUseClasses = false
 pygmentsUseClassic = false
 pygmentsStyle = "tango"
 
+[deployment]
+order = [".gif$", ".jpg$", ".png$", ".eot$", ".svg$", ".ttf$", ".woff$", ".woff2$", ".css$", ".js$"]
+
+[[deployment.targets]]
+name = "production"
+cloudFrontDistributionID = "E3GETM50SYZZCQ"
+URL = "s3://gotemplates.org?region=us-west-2"
 
 [languages]
 [languages.en]
-title = "Go Templates"
+title = "GoTemplates.org"
 description = "Fall in love with Go templates."
 languageName ="English"
 weight = 1
-
 
 [params]
 copyright = "Stuart Jansen and Contributors"

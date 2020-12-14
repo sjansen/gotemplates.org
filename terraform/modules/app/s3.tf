@@ -1,7 +1,9 @@
 resource "aws_s3_bucket" "logs" {
   bucket = "${var.dns_name}-logs"
   acl    = "log-delivery-write"
-  tags   = var.tags
+
+  tags = var.tags
+
   lifecycle_rule {
     id                                     = "cleanup"
     enabled                                = true
@@ -28,7 +30,9 @@ resource "aws_s3_bucket" "logs" {
 resource "aws_s3_bucket" "media" {
   bucket = var.dns_name
   acl    = "private"
-  tags   = var.tags
+
+  tags = var.tags
+
   lifecycle_rule {
     id                                     = "cleanup"
     enabled                                = true
