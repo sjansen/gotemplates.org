@@ -1,7 +1,7 @@
 module "app" {
   source = "../../modules/app"
   
-  dns_name = "gotemplates.org"
+  dns_name = "preview.gotemplates.org"
   dns_zone = "gotemplates.org"
   tags = {
     Environment = local.env

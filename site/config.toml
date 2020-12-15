@@ -1,4 +1,4 @@
-baseURL = "http://gotemplates.org/"
+baseURL = "/"
 theme = ["docsy"]
 title = "GoTemplates.org"
 
@@ -22,6 +22,11 @@ order = [".gif$", ".jpg$", ".png$", ".eot$", ".svg$", ".ttf$", ".woff$", ".woff2
 name = "production"
 cloudFrontDistributionID = "E3GETM50SYZZCQ"
 URL = "s3://gotemplates.org?region=us-west-2"
+
+[[deployment.targets]]
+name = "staging"
+cloudFrontDistributionID = "E35A9F0LJUFRID"
+URL = "s3://preview.gotemplates.org?region=us-east-2"
 
 [languages]
 [languages.en]
