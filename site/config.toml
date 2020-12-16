@@ -68,6 +68,5 @@ no = 'Sorry to hear that. Please <a href="https://github.com/sjansen/docsy/gotem
 [params.ui.readingtime]
 enable = true
 
-[services]
 [services.googleAnalytics]
-#id = "UA-00000000-0"
+id = "UA-185676782-1"

@@ -8,16 +8,16 @@ prod: production
 
 
 production:
-	@echo ========================
-	@echo Updating gotemplates.org
-	@echo ========================
-	hugo
+	@echo ================================
+	@echo Updating https://gotemplates.org
+	@echo ================================
+	HUGO_ENV="production" hugo
 	hugo deploy --target $@
 
 
 staging:
-	@echo ================================
-	@echo Updating preview.gotemplates.org
-	@echo ================================
+	@echo ========================================
+	@echo Updating https://preview.gotemplates.org
+	@echo ========================================
 	hugo
 	hugo deploy --target $@
