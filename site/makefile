@@ -1,7 +1,10 @@
-.PHONY:  default  production  staging
+.PHONY:  default  all  prod  production  staging
 
 
 default: staging
+
+
+all: staging production
 
 
 prod: production

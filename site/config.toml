@@ -42,7 +42,7 @@ copyright = "Stuart Jansen and Contributors"
 github_repo = "https://github.com/sjansen/gotemplates.org"
 github_subdir = "site"
 
-gcs_engine_id = "5d231b1bc3317746f"
+gcs_engine_id = "d36a9e805860d6f4d"
 
 [[params.links.developer]]
 name = "GitHub"
