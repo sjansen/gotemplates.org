@@ -1,0 +1,52 @@
+#+title: Glossary
+#+type: docs
+#+weight: 100
+
+* Action
+  :PROPERTIES:
+  :CUSTOM_ID: action
+  :END:
+
+TODO
+
+* Comment
+  :PROPERTIES:
+  :CUSTOM_ID: comment
+  :END:
+
+TODO
+
+* Function
+  :PROPERTIES:
+  :CUSTOM_ID: function
+  :END:
+
+TODO
+
+* Partial
+  :PROPERTIES:
+  :CUSTOM_ID: partial
+  :END:
+
+TODO
+
+* Pipeline
+  :PROPERTIES:
+  :CUSTOM_ID: pipeline
+  :END:
+
+TODO
+
+* Template
+  :PROPERTIES:
+  :CUSTOM_ID: template
+  :END:
+
+TODO
+
+* Variable
+  :PROPERTIES:
+  :CUSTOM_ID: variable
+  :END:
+
+TODO
